@@ -12,7 +12,7 @@ binary_tree_t *newn;
 
 newn = malloc(sizeof(binary_tree_t));
 if (newn == NULL)
-	return (0);
+		return (0);
 
 newn->parent = parent;
 newn->n=value;
