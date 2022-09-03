@@ -14,9 +14,9 @@ if (parent == NULL)
 
 newn = malloc(sizeof(binary_tree_t));
 	if (newn == NULL)
-		return (0);
+		return (NULL);
 
-newn->parent = parent->left;
+newn->left = parent->left;
 newn->right = NULL;
 newn->n = value;
 newn->parent = parent;
