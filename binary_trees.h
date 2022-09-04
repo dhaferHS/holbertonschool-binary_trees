@@ -42,4 +42,6 @@ size_t binary_tree_depth(const binary_tree_t *tree);/**task10**/
 size_t binary_tree_size(const binary_tree_t *tree);/**task11**/
 size_t binary_tree_leaves(const binary_tree_t *tree);/**task12**/
 size_t binary_tree_nodes(const binary_tree_t *tree);/**task13**/
+int binary_tree_balance(const binary_tree_t *tree);/**task14**/
+size_t tree_height(const binary_tree_t *tree);/**task14.1**/
 #endif
