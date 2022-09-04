@@ -45,4 +45,5 @@ size_t binary_tree_nodes(const binary_tree_t *tree);/**task13**/
 int binary_tree_balance(const binary_tree_t *tree);/**task14**/
 size_t tree_height(const binary_tree_t *tree);/**task14.1**/
 int binary_tree_is_full(const binary_tree_t *tree);/**task15**/
+int binary_tree_is_perfect(const binary_tree_t *tree);/**task16**/
 #endif
